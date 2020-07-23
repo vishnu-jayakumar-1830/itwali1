@@ -1,0 +1,112 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif    ;
+}
+.header{
+    background-color: rgb(209, 86, 106);
+}
+.section-1
+{
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(rgb(209, 86, 106),rgb(68, 209, 122),rgb(71, 205, 214)), url('./itwali2.jpg');
+    height: 100vh;
+    
+}
+.img-container{
+
+    width:80px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.feature h3{
+    font-size: 40px;
+    font-weight: bold;
+position: absolute;
+top:15px;
+left:120px;
+color: white;
+
+}
+.feature span{
+    position: absolute;
+    top:65px;
+    left:120px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+ul li{
+    margin-right: 50px;
+    
+
+}
+li a{
+    color: white!important;
+}
+a:hover{
+    color: orange !important;
+}
+.section-1 h6{
+    margin-top: 100px;
+  
+   font-weight: bold;
+   font-size: 18px;
+   color: white;
+   margin-left: 120px;
+
+}
+.section-1 b{
+    font-size: 28px;
+    position: absolute;
+    left: 0px;
+    color: white;
+
+}
+.section-1 span{
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 130px;
+    
+}
+.borders{
+    width:60%;
+    border: 2px solid orangered;
+    margin-top: 130px;
+    margin-left:1o0px;
+}
+
+.last-section p{
+    font-size: 18px;
+    margin-left: 0px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.last-section span{
+    margin-left: 140px;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top:250px;
+   
+}
+
+.but{
+position: absolute;
+left: 180px;
+top:300px;
+    padding: 0px 40px;
+   
+  border-radius: 60px;
+  background-color: orangered;
+  color: white;
+  border: none;
+}
